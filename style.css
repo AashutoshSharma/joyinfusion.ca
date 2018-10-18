@@ -1,0 +1,160 @@
+/*
+ Theme Name:   Woly Child
+ Author:       Neobyte
+ Template:     woly
+ Version:      1.0.0
+*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
+footer .eltd-footer-top:not(.eltd-footer-top-full) .eltd-container-inner {
+padding:30px 0 20px;
+}
+
+.widget ul li {
+border-bottom:1px solid #ebebeb;
+padding:0;
+}
+
+.widget ul li a {
+text-transform:capitalize;
+}
+
+footer .widget .eltd-footer-widget-title {
+margin-bottom:20px;
+}
+
+.widget {
+margin-top:0;
+}
+
+.eltd-blog-list-holder.eltd-blog-minimal .eltd-blog-list-item {
+padding:0;
+}
+
+.widget .eltd-instagram-feed li {
+padding:3px 6px 3px 0;
+}
+
+.eltd-three-columns .eltd-column {
+width:100%;
+padding-top:8px;
+}
+
+.vertical {
+font-family:Raleway, Arial, sans-serif;
+text-align:left;
+text-transform:none;
+font-variant:small-caps!important;
+font-weight:500;
+width:200px;
+}
+
+.vertical ul {
+    list-style:none;
+    -webkit-padding-start: 0px;
+    padding-left: 20px;    /* some value to give space for special letter */
+}
+.vertical a {
+    position: relative;
+   
+}
+.vertical a:hover::before {
+    content:'➸';
+    position: absolute;
+    right: -20px;   /* equal to padding-left */
+}
+.vertical ul a {font-size: 15px !important;}
+.vertical a {font-size: 17px !important;}
+.eltd-dark-header .eltd-main-menu>ul>li>a.current .item_text:before, .eltd-dark-header .eltd-main-menu>ul>li>a:hover .item_text:before {background-color: #41b3b5;}
+
+.eltd-title .eltd-title-holder .eltd-title-subtitle-holder,.eltd-title .eltd-title-holder .eltd-title-subtitle-holder-inner,.eltd-blog-holder.eltd-blog-single article .eltd-post-image-holder {
+display:none;
+}
+h4 { font-family:Raleway, Arial, sans-serif; font-size: 16px; text-align: center; font-variant:small-caps !important}
+.woocommerce .product .price {width: 30%; font-family:Raleway, Arial, sans-serif; font-size: 16px;}
+
+/*** Added by neobyte ***/
+.neo-col-2{
+	  width: 20%;
+    float: left;
+}
+.neo-col-10{
+	  width: 80%;
+    float: left;
+}
+.neo-col-2 .menu{
+	  margin-top: 0;
+}
+.neo-col-5{
+	  width: 41.66%;
+    float: left;
+}
+.neo-col-7{
+	  width: 58.33%;
+    float: left;
+}
+.neo-col-5 .product_meta .eltd-woocommerce-meta-table tr {
+    border: none;
+}
+.neo-col-5 .product_meta .eltd-woocommerce-meta-table td {
+    text-align: left;
+}
+.neo-col-5 .product_meta .eltd-woocommerce-meta-name {
+    font-weight: 400;
+    color: #444;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 17%;
+    padding: 5px 0;
+}
+.neo-col-5 .product_meta .eltd-woocommerce-meta-table a:hover {
+    color: #333;
+}
+.neo-col-5 .product_meta .eltd-woocommerce-meta-table a {
+    color: #676767;
+}
+.neo-col-5 .product_meta{
+	  padding-top: 0px;
+}
+.neo-col-7 .eltd-single-product-summary {
+    width: 100%;
+	padding-left: 20px;
+}
+.neo-col-7 .product_title{
+	  font-size: 28px;
+    margin-top: -9px;
+    margin-bottom: 6px;
+}
+.neo-col-7 .price {
+    font-size: 18px;
+    text-align: left !important;
+}
+.neo-col-7 p.stock {
+	   display: none;
+}
+.neo-col-5 p.stock{
+	  padding-top: 10px;
+      font-weight: bold;
+}
+@media only screen and (max-width: 767px){
+.neo-col-2, .neo-col-10, .neo-col-5, .neo-col-7{
+	  width: 100%;
+}
+.neo-col-7 .eltd-single-product-summary{
+	padding-left: 0;
+}
+.neo-col-2 .vertical{
+    max-width: 95% !important;
+}
+}/***/
+/**** End Added by Neobyte ****/
+
+
+
+
+
+
+
