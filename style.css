@@ -13,12 +13,13 @@ padding:30px 0 20px;
 }
 
 .widget ul li {
-border-bottom:1px solid #ebebeb;
+border-bottom:1px solid #e6e6e6;
 padding:0;
 }
 
 .widget ul li a {
 text-transform:capitalize;
+color: #191919;
 }
 
 footer .widget .eltd-footer-widget-title {
@@ -30,8 +31,10 @@ margin-top:0;
 }
 
 .eltd-blog-list-holder.eltd-blog-minimal .eltd-blog-list-item {
-padding:0;
+padding:0; bottom-border: 0px !important;
 }
+
+
 
 .widget .eltd-instagram-feed li {
 padding:3px 6px 3px 0;
@@ -48,7 +51,8 @@ text-align:left;
 text-transform:none;
 font-variant:small-caps!important;
 font-weight:500;
-width:200px;
+width:160px;
+text-color: #191919;
 }
 
 .vertical ul {
@@ -60,20 +64,36 @@ width:200px;
     position: relative;
    
 }
-.vertical a:hover::before {
-    content:'➸';
-    position: absolute;
-    right: -20px;   /* equal to padding-left */
+
+.widget ul li a:hover {
+    color: #00d4ff !important;
+   
 }
+/***
+.vertical a:hover:after{
+	font-family: "FontAwesome";
+    content: "\f054";
+    color: #00d4ff;
+    size: 10px;
+    -webkit-text-stroke: 2px white;
+    padding-left: 10px;
+    }
+****/
 .vertical ul a {font-size: 15px !important;}
-.vertical a {font-size: 17px !important;}
+.vertical a {font-size: 15px !important;}
 .eltd-dark-header .eltd-main-menu>ul>li>a.current .item_text:before, .eltd-dark-header .eltd-main-menu>ul>li>a:hover .item_text:before {background-color: #41b3b5;}
 
 .eltd-title .eltd-title-holder .eltd-title-subtitle-holder,.eltd-title .eltd-title-holder .eltd-title-subtitle-holder-inner,.eltd-blog-holder.eltd-blog-single article .eltd-post-image-holder {
 display:none;
 }
 h4 { font-family:Raleway, Arial, sans-serif; font-size: 16px; text-align: center; font-variant:small-caps !important}
-.woocommerce .product .price {width: 30%; font-family:Raleway, Arial, sans-serif; font-size: 16px;}
+.woocommerce .product .price {width: 30%; font-family:Raleway, Arial, sans-serif; font-size: 16px; text-align: center;}
+
+.widget .eltd-widget-title {background-color: #ffffff; color: #131313; padding: 4px 0px; text-transform:none; font-size: 17px; font-variant:small-caps;}
+.eltd-blog-list-holder.eltd-blog-minimal .eltd-blog-list-item {padding-bottom: 6px;}
+
+.eltd-tabs.eltd-horizontal-tab.eltd-color-tabs li.active a, .eltd-tabs.eltd-horizontal-tab.eltd-color-tabs li.ui-state-active a {color: #131313; ;background-color: #c5d7d7;}
+.eltd-tabs.eltd-horizontal-tab.eltd-color-tabs li:hover a {color: #131313; ;background-color: #c5d7d7;}
 
 /*** Added by neobyte ***/
 .neo-col-2{
@@ -150,6 +170,41 @@ h4 { font-family:Raleway, Arial, sans-serif; font-size: 16px; text-align: center
     max-width: 95% !important;
 }
 }/***/
+#menu-vertical-menu ul{
+	display: none;
+}
+.menu-vertical-menu-container .menu-item a{
+	display: block;
+}
+.menu-vertical-menu-container .menu-item-has-children > a:after{
+	font-family: "FontAwesome";
+    content: "\f078";
+    -webkit-text-stroke: 2px white;
+	right: 0;
+    position: absolute;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.menu-vertical-menu-container .menu-item-has-children > a.neocollapsed:after{
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.neo-refo{
+    text-transform: capitalize;
+    font-variant: small-caps !important;
+    color: #191919;
+    font-size: 15px;
+    font-weight: 400;
+	margin-top: -30px;
+    display: block;
+    padding-bottom: 8px;
+}
+.neo-refo i{
+	-webkit-text-stroke: 2px white;
+}
 /**** End Added by Neobyte ****/
 
 
