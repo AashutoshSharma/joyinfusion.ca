@@ -40,7 +40,7 @@ defined( 'ABSPATH' ) || exit;
 		    <?php dynamic_sidebar( 'sidearea' ); ?>		
 		</div><!---neo-col-2--->
 		<div class="neo-col-10">
-		
+		<a class="neo-refo" href="<?php echo wp_get_referer(); ?>"><i class="fa fa-chevron-left" aria-hidden="true"></i> Previous</a>
 		    <div class="neo-row">
 			    <div class="neo-col-5">
 				
